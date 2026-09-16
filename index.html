@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bola 8 Mágica 🔮</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔮 Bola 8 Mágica 🔮</h1>
+        <p class="subtitulo">Faça uma perguta objetiva e eu revelarei!</p>
+
+        <div class="bola-wrapper">
+            <div class="bola" id="bola">
+                <div class="janela">
+                    <p id="resposta">Pergunte algo e toque em mim...</p>
+                </div>
+                <div class="numero-8" id="numero8">8</div>
+            </div>
+        </div>
+
+        <input 
+            type="text" 
+            id="pergunta" 
+            placeholder="Digite sua pergunta aqui..." 
+            maxlength="100"
+        >
+
+        <button id="botao">Perguntar à Bola 8 🎱</button>
+
+        <p class="contador">
+            <span id="total">50</span> respostas no destino ✨
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
